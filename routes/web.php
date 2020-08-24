@@ -15,6 +15,13 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function() {return redirect()->to("/landing");});
 Route::get('/landing', 'PageRequestController@viewLanding');
+Route::get('/webinar', 'PageRequestController@viewWebinar');
+Route::get('/registrasi', 'PageRequestController@viewRegistrasi');
+
+
+
+
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
