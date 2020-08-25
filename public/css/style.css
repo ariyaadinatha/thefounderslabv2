@@ -675,6 +675,12 @@ hr.light-100 {
     text-align: center;
 }
 
+.boxtitle {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
 #services .box:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);

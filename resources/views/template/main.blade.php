@@ -46,6 +46,7 @@
     <ul>
       <li class="active"><a href="/landing">Home</a></li>
       <li><a href="/webinar">Webinar</a></li>
+      <li><a href="/news">News</a></li>
       <li><a href="/registrasi">Registrasi</a></li>
     </ul>
   </nav><!-- .main-nav -->
