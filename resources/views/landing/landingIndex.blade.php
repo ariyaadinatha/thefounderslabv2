@@ -321,7 +321,6 @@
     		<a href="https://www.instagram.com/thefounderslab/"><i class="fab fa-instagram">  </i></a>
     	</div>
     </div>
-    <hr class="my-4">
     </div>
 
 

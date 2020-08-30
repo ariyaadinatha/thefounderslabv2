@@ -20,8 +20,8 @@ class PageRequestController extends Controller
     }
 
      // ## -- 3. View Artikel
-     public function viewNews(){
-        return view("news.newsIndex");
+     public function viewArticle(){
+        return view("article.articleIndex");
     }   
   
     // ## -- 4. View Registrasi

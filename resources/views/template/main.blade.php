@@ -7,25 +7,25 @@
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="{{ URL::asset('img/favicon.png') }}" rel="icon">
+  <link href="{{ URL::asset('img/apple-touch-icon.png') }}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
   <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap CSS File {{ URL::asset('assets/css/bootstrap.min.css') }}-->
+  <link href="{{ URL::asset('lib/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <link href="{{ URL::asset('lib/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
+  <link href="{{ URL::asset('lib/animate/animate.min.css') }}" rel="stylesheet">
+  <link href="{{ URL::asset('lib/ionicons/css/ionicons.min.css') }}" rel="stylesheet">
+  <link href="{{ URL::asset('lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
+  <link href="{{ URL::asset('lib/lightbox/css/lightbox.min.css') }}" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
+  <link href="{{ URL::asset('css/style.css') }}" rel="stylesheet">
   @yield('style')
 </head>
 
@@ -38,7 +38,7 @@
 <div class="container">
 
   <div class="logo float-left">
-    <a href="#intro" class="scrollto"><img src="/img/apple-touch-icon.png" width="30" height="30" alt=""></a>
+    <a href="#intro" class="scrollto"><img src="{{ URL::asset('img/apple-touch-icon.png') }}" width="30" height="30" alt=""></a>
     <!-- <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> -->
   </div>
 
@@ -46,8 +46,8 @@
     <ul>
       <li class="active"><a href="/landing">Home</a></li>
       <li><a href="/webinar">Webinar</a></li>
-      <li><a href="/news">News</a></li>
-      <li><a href="/registrasi">Registrasi</a></li>
+      <li><a href="/article">Article</a></li>
+      <li><a href="/registration">Registration</a></li>
     </ul>
   </nav><!-- .main-nav -->
 
@@ -62,7 +62,7 @@
 <div class="container-fluid padding content">
 <div class="row text-center">
 	<div class="col-md-4">
-		<img src="img/apple-touch-icon.png" height=100px>
+		<img src="{{ URL::asset('img/apple-touch-icon.png') }}" height=100px>
 		<hr class="light">
 		<p> thefounderslab@gmail.com </p>
 		<p> Jalan Ganesha No. 10 </p>
