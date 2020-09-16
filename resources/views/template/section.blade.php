@@ -38,23 +38,24 @@
 <div class="container">
 
   <div class="logo float-left">
-    <a href="/landing" class="scrollto"><img src="{{ URL::asset('img/apple-touch-icon.png') }}" width="30" height="30" alt=""></a>
+    <a href="#intro" class="scrollto"><img src="{{ URL::asset('img/apple-touch-icon.png') }}" width="30" height="30" alt=""></a>
     <!-- <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> class="active" -->
   </div>
 
   <nav class="main-nav float-right d-none d-lg-block">
     <ul>
       <li><a href="/landing">Home</a></li>
-      <!-- under construction 
       <li><a href="/webinar">Webinar</a></li>
       <li><a href="/article">Article</a></li>
-      -->
       <li><a href="/registration">Registration</a></li>
     </ul>
   </nav><!-- .main-nav -->
 
+  
 </div>
 </header><!-- #header -->
+
+
 
 
 <body>
