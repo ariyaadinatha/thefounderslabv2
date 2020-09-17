@@ -34,21 +34,7 @@
         </div>
       </div>
 
-      <div class="col-md-12 col-lg-12 wow bounceInUp" data-wow-duration="1.4s">
-        <div class="box">
-          
-          <h4 class="title"><a href="#"> Volunteers </a></h4>
-            <p class="description text-center"> Coming Soon ! </p>
-        </div>
-      </div>
 
-      <div class="col-md-12 col-lg-12 wow bounceInUp" data-wow-duration="1.4s">
-        <div class="box">
-          
-          <h4 class="title"><a href="#"> Member </a></h4>
-            <p class="description text-center"> Coming Soon ! </p>
-        </div>
-      </div>
 
     </div>
 
