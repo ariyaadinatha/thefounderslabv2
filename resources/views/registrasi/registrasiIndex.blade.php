@@ -15,7 +15,7 @@
       <div class="col-md-12 col-lg-12 wow bounceInUp" data-wow-duration="1.4s">
         <div class="box">
           <div class="image">  </div>
-          <h4 class="title"><a href="https://forms.gle/2DFzgDFEYDf5pXpH9" target="_blank"> Open Recruitment The Funding Frenzy Trilogy </a></h4>
+          <h4 class="title"><a href="https://forms.gle/2DFzgDFEYDf5pXpH9" target="_blank"> Open Recruitment The Founders Lab </a></h4>
           <p class="description">
           <b> Announcement! </b>
           <br>
