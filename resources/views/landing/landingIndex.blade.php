@@ -28,8 +28,8 @@
         <div class="row" id="oprec">
           <div class="col-md-12 col-lg-12 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="box">
-              <h4 class="title"><a href="oprec/hasil.pdf"> OPEN RECRUITMENT RESULTS </a></h4>
-              <p class="description text-center"> Welcoming our new family to The Founders Lab and Funding Frenzy! Are you excited? </p>
+              <h4 class="title"><a href="oprec/hasil.pdf"> <h2> OPEN RECRUITMENT RESULTS </h2> </a></h4>
+              <p class="description text-center"> <h3> Welcoming our new family to The Founders Lab and Funding Frenzy! <br> <i> Are you excited? </i> </h3> </p>
               <a href="oprec/hasil.pdf">
               <button type="button" class="btn btn-primary">open here</button></a>
             </div>
