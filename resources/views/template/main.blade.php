@@ -45,10 +45,8 @@
   <nav class="main-nav float-right d-none d-lg-block">
     <ul>
       <li><a href="/landing">Home</a></li>
-      <!-- under construction 
       <li><a href="/webinar">Webinar</a></li>
       <li><a href="/article">Article</a></li>
-      -->
       <li><a href="/registration">Registration</a></li>
     </ul>
   </nav><!-- .main-nav -->

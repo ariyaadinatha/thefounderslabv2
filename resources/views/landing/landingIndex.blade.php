@@ -23,6 +23,23 @@
 
   <main id="main">
 
+  <section id="services" class="#">
+      <div class="container">
+        <div class="row" id="oprec">
+          <div class="col-md-12 col-lg-12 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <h4 class="title"><a href="oprec/hasil.pdf"> Hasil Open Recruitment </a></h4>
+              <p class="description"> </p>
+              <a href="oprec/hasil.pdf">
+              <button type="button" class="btn btn-primary pull-right">Download</button></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
     <!--==========================
       About Us Section
     ============================-->
