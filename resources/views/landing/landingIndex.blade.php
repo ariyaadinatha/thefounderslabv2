@@ -31,7 +31,7 @@
               <h4 class="title"><a href="oprec/hasil.pdf"> Hasil Open Recruitment </a></h4>
               <p class="description"> </p>
               <a href="oprec/hasil.pdf">
-              <button type="button" class="btn btn-primary pull-right">Download</button></a>
+              <button type="button" class="btn btn-primary">Download</button></a>
             </div>
           </div>
 
