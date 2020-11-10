@@ -15,7 +15,7 @@
   <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
   <!-- Bootstrap CSS File {{ URL::asset('assets/css/bootstrap.min.css') }}-->
-  <link href="{{ URL::asset('lib/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ URL::asset('lib/bootstrap/css/bootstrap.css') }}" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
   <link href="{{ URL::asset('lib/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
@@ -31,14 +31,13 @@
 
   <!--==========================
   Header
-
   ============================-->
 <header id="header">
 
-<div class="container">
+<div class="container-fluid">
 
   <div class="logo float-left">
-    <a href="/landing" class="scrollto"><img src="{{ URL::asset('img/apple-touch-icon.png') }}" width="30" height="30" alt=""></a>
+    <a href="/landing" class="scrollto pl-5"><img src="{{ URL::asset('img/apple-touch-icon.png') }}" width="30" height="30" alt=""></a>
     <!-- <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> class="active" -->
   </div>
 
@@ -48,6 +47,62 @@
       <li><a href="/webinar">Webinar</a></li>
       <li><a href="/article">Article</a></li>
       <li><a href="/registration">Registration</a></li>
+
+      <li class="nav-item">
+          <a class="nav-link" href="/landing">Home</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Directory
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+            <a class="dropdown-item" href="#">Student Startup</a>
+            <a class="dropdown-item" href="#">Incubator</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Resources
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+            <a class="dropdown-item" href="#">Mentor</a>
+            <a class="dropdown-item" href="#">Research</a>
+            <a class="dropdown-item" href="#">Funding Frenzy</a>
+            <a class="dropdown-item" href="#">Space</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Networking
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+            <a class="dropdown-item" href="#">Community College</a>
+            <a class="dropdown-item" href="#">Looking for Co-Founder</a>
+            <a class="dropdown-item" href="#">Looking for Startup Team</a>
+            <a class="dropdown-item" href="#">Finding Intern/Freelance</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Medium
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+            <a class="dropdown-item" href="#">Articles</a>
+            <a class="dropdown-item" href="#">Podcast</a>
+            <a class="dropdown-item" href="#">Subscribe Newsletter</a>
+            <a class="dropdown-item" href="#">Hall of Fame</a>
+          </div>
+        </li>
+
+        <li class="nav-item pr-2">
+          <a class="nav-link" href="#">Courses</a>
+        </li>
+
+
     </ul>
   </nav><!-- .main-nav -->
 
@@ -89,5 +144,34 @@
 </footer>
 
 @yield('script')
+<script>
+
+const $dropdown = $(".dropdown");
+const $dropdownToggle = $(".dropdown-toggle");
+const $dropdownMenu = $(".dropdown-menu");
+const showClass = "show";
+
+$(window).on("load resize", function() {
+    if (this.matchMedia("(min-width: 768px)").matches) {
+        $dropdown.hover(
+            function() {
+                const $this = $(this);
+                $this.addClass(showClass);
+                $this.find($dropdownToggle).attr("aria-expanded", "true");
+                $this.find($dropdownMenu).addClass(showClass);
+            },
+            function() {
+                const $this = $(this);
+                $this.removeClass(showClass);
+                $this.find($dropdownToggle).attr("aria-expanded", "false");
+                $this.find($dropdownMenu).removeClass(showClass);
+            }
+        );
+    } else {
+        $dropdown.off("mouseenter mouseleave");
+    }
+});
+
+</script>
 
 </html>

@@ -4,8 +4,24 @@
     <!--==========================
       Webinar Section
     ============================-->
+    
+@section('content')
+<div class="container-fluid">
+
+<div class="jumbotron jumbotron-fluid" style="background-image : url({{ URL::asset('img/danau.jpg') }});">
+  <div class="container">
+    <h1 class="display-4">Fluid jumbotron</h1>
+    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+  </div>
+</div>
+
+
+</div>
+
     <section id="services" class="section-bg">
       <div class="container">
+
+
 
         <header class="section-header">
           <h3>Webinar</h3>
@@ -49,3 +65,5 @@
 
       </div>
     </section>
+
+@endsection
