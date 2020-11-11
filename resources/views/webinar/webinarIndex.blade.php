@@ -29,7 +29,7 @@
               <b> Featured </b>
             </div>
             <div class="card-body">
-            <img class="card-img rounded" src="{{ URL::asset('img/webinar/webinar1.jpg') }}" alt="Card image" style="height:30vw;">
+            <img class="card-img rounded" src="{{ URL::asset('img/webinar/webinar1.jpg') }}" alt="Card image" style="height:55vw;">
              <!-- <h5 class="card-title pt-2">Special title treatment</h5>-->
               <p class="card-text"> </p> 
               <a href="https://bit.ly/3eQ2Q6P" target="_blank" class="btn btn-primary">Register</a>
