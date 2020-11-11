@@ -467,11 +467,6 @@ hr.light-100 {
 
 /* Desktop Navigation */
 
-.main-nav {
-    /* Drop Down */
-    /* Deep Drop Down */
-}
-
 .main-nav,
 .main-nav * {
     margin: 0;
@@ -1721,6 +1716,19 @@ hr.light-100 {
 
 #footer .credits a:hover {
     color: #0a98c0;
+}
+
+.transparent {
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+}
+
+.vertical-center {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 /*--------------------------------------------------------------

@@ -8,62 +8,51 @@
 @section('content')
 <div class="container-fluid">
 
-<div class="jumbotron jumbotron-fluid" style="background-image : url({{ URL::asset('img/danau.jpg') }});">
-  <div class="container">
-    <h1 class="display-4">Fluid jumbotron</h1>
-    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-  </div>
+<div class="jumbotron jumbotron-fluid text-center" style="background-image: linear-gradient(to bottom, rgba(255,255,255,0.9) 0%,rgba(0,0,0,0.9) 100%), url({{ URL::asset('img/webinar.jpg') }});">
+
+      <h1 class="display-4 pt-5">Webinar</h1>
+      <p class="lead"> Gain substantial knowledge on various topics by participating on our webinars! </p>
+ 
 </div>
 
 
 </div>
 
-    <section id="services" class="section-bg">
-      <div class="container">
-
-
-
-        <header class="section-header">
-          <h3>Webinar</h3>
-          <p> Gain substantial knowledge on various topics by participating on our webinars!</p>
-        </header>
-
-        <div class="row">
-
-          <div class="col-md-6 col-lg-6 wow bounceInUp" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon" style="background: #fceef3;"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
-              <h4 class="title"><a href=""> Webinar 1 </a></h4>
-              <p class="description"> Lorem ipsum dolor sit amet </p>
+<div class="container pt-3 pb-3">
+    <div class="row">
+        
+        <!-- loop dari sini -->
+ 
+        <div class="col-sm-6">
+          <div class="card text-center">
+            <div class="card-header">
+              Featured
+            </div>
+            <div class="card-body">
+            <img class="card-img rounded" src="{{ URL::asset('img/webinar/webinar1.jpg') }}" alt="Card image" style="height:30vw;">
+             <!-- <h5 class="card-title pt-2">Special title treatment</h5>-->
+              <p class="card-text"> </p> 
+              <a href="https://bit.ly/3eQ2Q6P" target="_blank" class="btn btn-primary">Register</a>
+            </div>
+            <div class="card-footer text-muted">
+              
             </div>
           </div>
-          <div class="col-md-6 col-lg-6 wow bounceInUp" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon" style="background: #fff0da;"><i class="ion-ios-bookmarks-outline" style="color: #e98e06;"></i></div>
-              <h4 class="title"><a href=""> Webinar 2 </a></h4>
-              <p class="description"> Lorem ipsum dolor sit amet </p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-6 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon" style="background: #e6fdfc;"><i class="ion-ios-paper-outline" style="color: #3fcdc7;"></i></div>
-              <h4 class="title"><a href=""> Webinar 3 </a></h4>
-              <p class="description"> Lorem ipsum dolor sit amet </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-6 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon" style="background: #eafde7;"><i class="ion-ios-speedometer-outline" style="color:#41cf2e;"></i></div>
-              <h4 class="title"><a href=""> Webinar 4 </a></h4>
-              <p class="description"> Lorem ipsum dolor sit amet </p>
-            </div>
-          </div>
-
-
         </div>
 
-      </div>
-    </section>
+
+
+        <!-- sampai sini -->
+
+
+
+
+
+
+        
+
+    </div>
+</div>
+
 
 @endsection

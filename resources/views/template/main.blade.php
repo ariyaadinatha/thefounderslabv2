@@ -43,13 +43,12 @@
 
   <nav class="main-nav float-right d-none d-lg-block">
     <ul>
-      <li><a href="/landing">Home</a></li>
-      <li><a href="/webinar">Webinar</a></li>
-      <li><a href="/article">Article</a></li>
-      <li><a href="/registration">Registration</a></li>
-
-      <li class="nav-item">
+        <li class="nav-item">
           <a class="nav-link" href="/landing">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/webinar">Webinar</a>
         </li>
 
         <li class="nav-item dropdown">
