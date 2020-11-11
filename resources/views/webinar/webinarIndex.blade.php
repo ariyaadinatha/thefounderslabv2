@@ -26,7 +26,7 @@
         <div class="col-sm-6">
           <div class="card text-center">
             <div class="card-header">
-              Featured
+              <b> Featured </b>
             </div>
             <div class="card-body">
             <img class="card-img rounded" src="{{ URL::asset('img/webinar/webinar1.jpg') }}" alt="Card image" style="height:30vw;">
