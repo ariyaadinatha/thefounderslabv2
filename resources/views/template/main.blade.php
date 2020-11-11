@@ -48,7 +48,7 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="/webinar">Webinar</a>
+          <a class="nav-link" href="/webinar">Event</a>
         </li>
 
         <li class="nav-item dropdown">

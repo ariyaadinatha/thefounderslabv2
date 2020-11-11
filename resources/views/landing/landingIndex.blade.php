@@ -43,15 +43,16 @@
 
   <main id="main">
 
-  <section id="services" class="#">
+  <section id="services" class="m-3">
       <div class="container">
         <div class="row" id="oprec">
           <div class="col-md-12 col-lg-12 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="box">
-              <h4 class="title"><a href="oprec/hasil.pdf"> <h2> OPEN RECRUITMENT RESULTS </h2> </a></h4>
-              <p class="description text-center"> <h3> Welcoming our new family to The Founders Lab and Funding Frenzy! <br> <i> Are you excited? </i> </h3> </p>
-              <a href="oprec/hasil.pdf">
-              <button type="button" class="btn btn-primary">open here</button></a>
+              <h4 class="title"><a href="oprec/hasil.pdf"> <h2> FOUNDERS IGNITION REGISTRATION </h2> </a></h4>
+              <img class="card-img rounded" src="{{ URL::asset('img/webinar/webinar1-2.jpg') }}" alt="Card image">
+              <p class="description text-center"> <h3> prepare yourself to initiate your startup <br> <i> with corporation-startup experts you won't want to miss! </i> </h3> </p>
+              <a href="https://bit.ly/3eQ2Q6P">
+              <button type="button" class="btn btn-primary">Register</button></a>
             </div>
           </div>
 
