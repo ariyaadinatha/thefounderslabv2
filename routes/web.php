@@ -13,18 +13,40 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/', function() {return redirect()->to("/landing");});
+Route::get('/home', function() {return redirect()->to("/landing");});
 Route::get('/landing', 'PageRequestController@viewLanding');
 Route::get('/webinar', 'PageRequestController@viewWebinar');
 Route::get('/registration', 'PageRequestController@viewRegistrasi');
+
+
+/*Coming Soon*/
+Route::get('/startup', 'PageRequestController@viewComingSoon');
+Route::get('/incubator', 'PageRequestController@viewComingSoon');
+Route::get('/mentor', 'PageRequestController@viewComingSoon');
+Route::get('/research', 'PageRequestController@viewComingSoon');
+Route::get('/fundingfrenzy', 'PageRequestController@viewComingSoon');
+Route::get('/space', 'PageRequestController@viewComingSoon');
+
+Route::get('/community', 'PageRequestController@viewComingSoon');
+Route::get('/cofound', 'PageRequestController@viewComingSoon');
+Route::get('/team', 'PageRequestController@viewComingSoon');
+Route::get('/intern', 'PageRequestController@viewComingSoon');
+
+Route::get('/podcast', 'PageRequestController@viewComingSoon');
+Route::get('/subscribe', 'PageRequestController@viewComingSoon');
+Route::get('/hall', 'PageRequestController@viewComingSoon');
+Route::get('/course', 'PageRequestController@viewComingSoon');
+
+
+/* Article */
+
 
 Route::get('/article', 'ArticleController@index');
 Route::get('/article/{id}', 'ArticleController@show')->name('article.articleSingle');
 
 
-
-
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
+/* Webinar */
+Route::get('/create/new/webinar', 'EventController@create');
+Route::post('/webinar/store', 'EventController@store');

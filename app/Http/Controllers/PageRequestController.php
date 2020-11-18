@@ -15,8 +15,9 @@ class PageRequestController extends Controller
     }
 
     // ## -- 2. View Webinar
-    public function viewWebinar(){
-        return view("webinar.webinarIndex");
+    public function viewWebinar()
+    {
+        return view('webinar.webinarIndex');
     }
 
      // ## -- 3. View Artikel
@@ -27,6 +28,11 @@ class PageRequestController extends Controller
     // ## -- 4. View Registrasi
     public function viewRegistrasi(){
         return view("registrasi.registrasiIndex");
+    }
+
+    // ## -- 5. View Coming Soon
+    public function viewComingSoon(){
+        return view("coming.comingIndex");
     }
 
 }
