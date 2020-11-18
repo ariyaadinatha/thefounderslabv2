@@ -49,9 +49,9 @@
           <div class="col-md-12 col-lg-12 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="box">
               <h4 class="title"><a href="oprec/hasil.pdf"> <h2> FOUNDERS IGNITION REGISTRATION </h2> </a></h4>
-              <img class="card-img rounded" src="{{ URL::asset('img/webinar/webinar1-2.jpg') }}" alt="Card image">
+              <img class="card-img rounded" src="{{ URL::asset('img/webinar/webinar2.jpg') }}" alt="Card image">
               <p class="description text-center"> <h3> prepare yourself to initiate your startup <br> <i> with corporation-startup experts you won't want to miss! </i> </h3> </p>
-              <a href="https://bit.ly/3eQ2Q6P">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfn0gJDcuVDuRSsfWS4q314rttwjPdjUOydliY-qCB47MlhMw/viewform" target="_blank">
               <button type="button" class="btn btn-primary">Register</button></a>
             </div>
           </div>

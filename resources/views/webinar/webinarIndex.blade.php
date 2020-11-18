@@ -17,7 +17,7 @@
             <div class="card-header">
               <b> Featured </b>
             </div>
-            <a href="https://bit.ly/3eQ2Q6P" target="_blank" class="btn btn-primary">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfn0gJDcuVDuRSsfWS4q314rttwjPdjUOydliY-qCB47MlhMw/viewform" target="_blank" class="btn btn-primary">
               <div class="card-body">
               <img class="card-img rounded" src="{{ URL::asset('img/webinar/webinar2.jpg') }}" alt="Card image">
               </div>
