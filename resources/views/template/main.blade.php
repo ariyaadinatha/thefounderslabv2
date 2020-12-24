@@ -26,7 +26,7 @@
 
   <!-- Main Stylesheet File -->
   <link href="{{ URL::asset('css/style.css') }}" rel="stylesheet">
-  @yield('style')
+  @yield('css')
 </head>
 
   <!--==========================
@@ -48,7 +48,7 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="/webinar">Event</a>
+          <a class="nav-link" href="/event">Event</a>
         </li>
 
         <li class="nav-item dropdown">

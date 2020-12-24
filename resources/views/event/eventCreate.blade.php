@@ -1,14 +1,14 @@
 @extends('template.main')
 
 @section('content')
-<div class="container container-body p-5">
-    <form action="/webinar/store" enctype="multipart/form-data" method="post">
+<div class="container container-body p-5 h-75">
+    <form action="/event/store" enctype="multipart/form-data" method="post">
         @csrf
 
         <div class="row pt-5">
             
             <div class="col-8 offset-2">
-                <h2 class="display-4"> Create Webinar </h2>
+                <h2 class="display-4"> Create Event </h2>
             </div>
         </div>
 

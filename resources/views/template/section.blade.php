@@ -26,7 +26,16 @@
 
   <!-- Main Stylesheet File -->
   <link href="{{ URL::asset('css/style.css') }}" rel="stylesheet">
-  @yield('style')
+  @yield('css')
+
+  <!-- Stylesheet -->
+  <style>
+    .sectionBG {
+      background-image: linear-gradient(to bottom, rgba(255,255,255,0.7), rgba(0,0,0,1)), url(@yield('jumbotronImage'));
+    }
+
+  </style>
+
 </head>
 
   <!--==========================
@@ -48,7 +57,7 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="/webinar">Event</a>
+          <a class="nav-link" href="/event">Event</a>
         </li>
 
         <li class="nav-item dropdown">
@@ -111,11 +120,10 @@
 
 <body>
   <div class="container-fluid">
-  <div class="jumbotron jumbotron-fluid text-center">
-
-        <h1 class="display-4 pt-5"> @yield('title') </h1>
-        <p class="lead"> @yield('subtitle') </p>
   
+  <div class="jumbotron jumbotron-fluid text-center sectionBG">
+        <h1 class="display-3 pt-5 text-light"> @yield('title') </h1>
+        <p class="lead text-light"> @yield('subtitle') </p>
   </div>
   </div>
 

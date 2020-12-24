@@ -14,12 +14,6 @@ class PageRequestController extends Controller
         return view("landing.landingIndex");
     }
 
-    // ## -- 2. View Webinar
-    public function viewWebinar()
-    {
-        return view('webinar.webinarIndex');
-    }
-
      // ## -- 3. View Artikel
      public function viewArticle(){
         return view("article.articleIndex");

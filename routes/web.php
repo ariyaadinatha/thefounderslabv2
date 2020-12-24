@@ -17,7 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function() {return redirect()->to("/landing");});
 Route::get('/home', function() {return redirect()->to("/landing");});
 Route::get('/landing', 'PageRequestController@viewLanding');
-Route::get('/webinar', 'PageRequestController@viewWebinar');
 Route::get('/registration', 'PageRequestController@viewRegistrasi');
 
 
@@ -41,12 +40,16 @@ Route::get('/course', 'PageRequestController@viewComingSoon');
 
 
 /* Article */
-
-
 Route::get('/article', 'ArticleController@index');
 Route::get('/article/{id}', 'ArticleController@show')->name('article.articleSingle');
 
 
-/* Webinar */
-Route::get('/create/new/webinar', 'EventController@create');
-Route::post('/webinar/store', 'EventController@store');
+/* Adm00n */
+Route::get('/adm00n', 'Adm00nController@index');
+
+/* Event */
+Route::get('/event', 'EventController@viewIndex');
+Route::get('/event/create', 'EventController@create');
+Route::post('/event/store', 'EventController@store');
+
+
