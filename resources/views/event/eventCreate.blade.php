@@ -28,6 +28,21 @@
             </div>
         </div>
 
+        <div class="row">
+            <div class="col-8 offset-2">
+                <div class="form-group">
+                    <label for="link" class="col-form-label"> Registration Link </label>
+                        <input id="link" type="text" placeholder="https://www." class="form-control-file @error('link') is-invalid @enderror" 
+                        name="link" required autocomplete="link" autofocus>
+                            @error('caption')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                            @enderror
+                </div>
+            </div>
+        </div>
+
 
         <div>
             <div class="row pt-3">

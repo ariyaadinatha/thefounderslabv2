@@ -13,11 +13,13 @@
         
         @foreach($events as $event)
         <div class="col-sm-6">
-          <div class="card text-center">
-            <div class="card-body">
-            <img class="card-img rounded" src="{{$event->img}}" alt="Card image">
+          <a href="{{$event->link}}" target="_blank">
+            <div class="card text-center">
+              <div class="card-body">
+              <img class="card-img rounded" src="{{$event->img}}" alt="Card image">
+              </div>
             </div>
-          </div>
+          </a>
         </div>
         @endforeach
 

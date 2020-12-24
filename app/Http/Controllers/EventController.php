@@ -21,6 +21,7 @@ class EventController extends Controller
 
         Event::create([
             'img' => $imageUrl,
+            'link' => $request->link,
         ]);
 
         return redirect()->to('/event/');

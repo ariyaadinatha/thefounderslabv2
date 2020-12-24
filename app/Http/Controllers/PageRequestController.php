@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Event;
 use App\Mail\IndividualDelegateRegist;
 use App\Mail\DelegationRegist;
 use Illuminate\Http\Request;
@@ -11,7 +12,8 @@ class PageRequestController extends Controller
 {
     // ## -- 1. View Landing
     public function viewLanding(){
-        return view("landing.landingIndex");
+        $event = Event::latest()->first();
+        return view("landing.landingIndex", ['event' => $event]);
     }
 
      // ## -- 3. View Artikel
