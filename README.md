@@ -1,20 +1,17 @@
 ## To Do
 
-### Template :
-1. Single article
-3. Article box
-    1. Angel Investor
-    2. Student Startup
-    3. Lab
-4. Registration box
-5. Webinar box
+###
 
+24 Desember 2020
 
-### Database :
-1. Webinar
-2. User
-
-### Fitur :
-1. Login
-2. Register
-3. Progress tracker
+1. Kasih password buat halaman admin
+2. Medium Controller
+   a. Article
+   b. Podcast
+3. Networking Controller
+   a. Community
+   b. Co-Founder
+   c. Startup Team
+   d. Intern
+4. Resource Controller
+   a. Mentor
