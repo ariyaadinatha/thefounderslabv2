@@ -34,48 +34,21 @@
 
           <div class="col-md-6 col-lg-6 wow bounceInUp" data-wow-duration="1.4s">
             <div class="box">
-              <h4 class="title"><a href="#"> Add Community College </a></h4>
+              <h4 class="title"><a href="#"> Add Network </a></h4>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-6 wow bounceInUp" data-wow-duration="1.4s">
             <div class="box">
-              <h4 class="title"><a href="#"> Add Co-Founder </a></h4>
+              <h4 class="title"><a href="/medium/create"> Create Medium </a></h4>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-6 wow bounceInUp" data-wow-duration="1.4s">
             <div class="box">
-              <h4 class="title"><a href="#"> Add Startup Team  </a></h4>
+              <h4 class="title"><a href="#"> Add Course </a></h4>
             </div>
           </div>
-
-          <div class="col-md-6 col-lg-6 wow bounceInUp" data-wow-duration="1.4s">
-            <div class="box">
-              <h4 class="title"><a href="#"> Add Intern  </a></h4>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-6 wow bounceInUp" data-wow-duration="1.4s">
-            <div class="box">
-              <h4 class="title"><a href="#"> Create Article </a></h4>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-6 wow bounceInUp" data-wow-duration="1.4s">
-            <div class="box">
-              <h4 class="title"><a href="#"> Create Podcast </a></h4>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-6 wow bounceInUp" data-wow-duration="1.4s">
-            <div class="box">
-              <h4 class="title"><a href="#"> Coming Soon  </a></h4>
-            </div>
-          </div>
-
-
-
 
 
         </div>

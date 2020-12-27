@@ -27,11 +27,6 @@
   <!-- Main Stylesheet File -->
   <link href="{{ URL::asset('css/style.css') }}" rel="stylesheet">
   @yield('css')
-
-
-
-
-
 </head>
 
   <!--==========================
@@ -118,35 +113,5 @@
   @yield('content')
 </body>
 
-<footer>
-@yield('script')
-
-<div class="container-fluid padding content">
-<div class="row text-center">
-	<div class="col-md-4">
-		<img src="{{ URL::asset('img/apple-touch-icon.png') }}" height=100px>
-		<hr class="light">
-		<p> thefounderslab@gmail.com </p>
-		<p> Jalan Ganesha No. 10 </p>
-	</div>
-	<div class="col-md-4">
-		<hr class="light">
-		<h5> Services </h5>
-		<hr class="light">
-		<p> Advisory & Mentorship </p>
-		<p> Research </p>
-		<p> Co-Working Spaces </p>
-		<p> Investment Capital & Funds </p>
-	</div>
-	<div class="col-md-4">
-		<hr class="light">
-		<h5> Contact Person </h5>
-		<hr class="light">
-		<p> Grace Natasha Christiadhi </p>
-		<p> 082138099916 </p>
-	</div>
-</div>
-</div>
-</footer>
 
 </html>

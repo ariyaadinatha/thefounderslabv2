@@ -39,9 +39,11 @@ Route::get('/hall', 'PageRequestController@viewComingSoon');
 Route::get('/course', 'PageRequestController@viewComingSoon');
 
 
-/* Article */
-Route::get('/article', 'ArticleController@index');
-Route::get('/article/{id}', 'ArticleController@show')->name('article.articleSingle');
+/* Medium */
+Route::get('/article', 'MediumController@articleIndex');
+Route::get('/article/{id}', 'MediumController@articleShow')->name('article.articleSingle');
+Route::get('/medium/create', 'MediumController@create');
+Route::post('/medium/store', 'MediumController@store');
 
 
 /* Adm00n */

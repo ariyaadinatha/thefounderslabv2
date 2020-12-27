@@ -12,7 +12,7 @@
     <div class="row">
         
         @foreach($events as $event)
-        <div class="col-sm-6">
+        <div class="col-sm-6 pt-3">
           <a href="{{$event->link}}" target="_blank">
             <div class="card text-center">
               <div class="card-body">
