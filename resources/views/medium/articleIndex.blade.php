@@ -1,10 +1,10 @@
 @extends("template.section")
 
 
-@section('jumbotronImage', 'img/webinar.jpg')
+@section('jumbotronImage', 'img/article.jpg')
 @section('title', 'Article')
 
-@section('subtitle', 'Lorem Ipsum')
+@section('subtitle', 'Get the latest news here')
 
 
 @section('content')
@@ -18,7 +18,7 @@
                         <img class="card-img rounded" src="/{{$value->img}}" alt="Card image" style="height:15vw;">
                     <div class="card-img-overlay d-flex align-items-end transparent rounded">
                         <div class="#">
-                            <a href="/article/{{$value->id}}"> <h5 class="card-title">{{$value->title}}</h5> </a>
+                            <a href="/article/{{$value->slug}}"> <h5 class="card-title">{{$value->title}}</h5> </a>
                             <p class="card-text"> {{ substr($value->description, 0, 100) }} {{ strlen($value->description) > 100 ? '....' : "" }} </p>
                         </div>
                     </div>

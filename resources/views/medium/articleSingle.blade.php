@@ -1,20 +1,34 @@
-@extends("template.main")
+@extends("template.article")
 
+@section('jumbotronImage')
+"/{{ $medium->img }}"
+@endsection
+
+@section('title')
+  {{ $medium->title }}
+@endsection
+
+@section('subtitle')
+  {{ $medium->created_at }}
+@endsection
+
+@section('content')
 <!--==========================
     Article Section
 ============================-->
-    <section id="services" class="section-bg">
-      <div class="container">
+<div class="container">
 
-        <header class="section-header">
-          <h3> {{ $article->title }} </h3>
-        </header>
+<img src="/{{ $medium->img }}" class="img-fluid pt-2 pb-2" alt="Responsive image">
+  <header class="section-header">
+    <h3> {{ $medium->title }} </h3>
+  </header>
 
-        <div class="row">
-            <div class="">
-              <p class="description"> {{ $article->body }} </p>
-            </div>
-        </div>
-
+  <div class="row">
+      <div class="">
+        <p class="description text-justify"> {{ $medium->description }} </p>
       </div>
-    </section>
+  </div>
+
+</div>
+
+@endsection

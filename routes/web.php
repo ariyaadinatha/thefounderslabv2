@@ -41,7 +41,7 @@ Route::get('/course', 'PageRequestController@viewComingSoon');
 
 /* Medium */
 Route::get('/article', 'MediumController@articleIndex');
-Route::get('/article/{id}', 'MediumController@articleShow')->name('article.articleSingle');
+Route::get('/article/{medium:slug}', 'MediumController@articleShow')->name('article.articleSingle');
 Route::get('/medium/create', 'MediumController@create');
 Route::post('/medium/store', 'MediumController@store');
 

@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Medium extends Model
 {
-    protected $fillable = ['title', 'description', 'img', 'link', 'type'];
+    protected $fillable = ['title', 'slug','description', 'img', 'link', 'type'];
 }

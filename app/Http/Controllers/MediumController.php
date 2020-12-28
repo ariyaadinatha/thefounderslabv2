@@ -3,19 +3,20 @@
 namespace App\Http\Controllers;
 use App\Medium;
 
+use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 
 class MediumController extends Controller
 {
     public function articleIndex()
     {
-        $medium = Medium::get();
+        $medium = Medium::latest()->get();
         return view('medium.articleIndex', ['medium' => $medium]);
     }
 
-    public function articleSingle()
+    public function articleShow(Medium $medium)
     {
-
+        return view('medium.articleSingle', ['medium' => $medium]);
     }
 
     public function create()
@@ -29,9 +30,11 @@ class MediumController extends Controller
         $image = request()->file('image');
         $imgname = request()->file('image')->getClientOriginalName();
         $imageUrl = $image->storeAs("img/medium", "{$imgname}");
+        $slug = str_slug($request->title, '-');
 
         Medium::create([
             'title' => $request->title,
+            'slug' => $slug,
             'description' => $request->description,
             'img' => $imageUrl,
             'link' => $request->link,
