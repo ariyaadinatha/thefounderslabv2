@@ -49,7 +49,7 @@
           <div class="col-md-12 col-lg-12 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="box">
               <h4 class="title"><a href="oprec/hasil.pdf"> <h2> EVENT REGISTRATION </h2> </a></h4>
-              <img class="card-img rounded" src="{{$event->img}}" alt="Card image">
+              <img class="card-img rounded" src="{{URL::asset('$event->img')}}" alt="Card image">
               <p class="description text-center pt-3"> <h3> prepare yourself to initiate your startup <br> <i> with corporation-startup experts you won't want to miss! </i> </h3> </p>
               <a href="{{$event->link}}" target="_blank">
               <button type="button" class="btn btn-primary">Register</button></a>
