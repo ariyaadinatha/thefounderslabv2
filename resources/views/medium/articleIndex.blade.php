@@ -15,7 +15,7 @@
             @foreach($medium as $key => $value)
             <div class="col-sm-6">
                 <div class="card bg-dark text-white ">
-                        <img class="card-img rounded" src="/{{$value->img}}" alt="Card image" style="height:15vw;">
+                        <img class="card-img rounded" src="{{URL::asset($value->img)}}" alt="Card image" style="height:15vw;">
                     <div class="card-img-overlay d-flex align-items-end transparent rounded">
                         <div class="#">
                             <a href="/article/{{$value->slug}}"> <h5 class="card-title">{{$value->title}}</h5> </a>

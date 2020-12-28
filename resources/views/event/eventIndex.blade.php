@@ -16,7 +16,7 @@
           <a href="{{$event->link}}" target="_blank">
             <div class="card text-center">
               <div class="card-body">
-              <img class="card-img rounded" src="{{URL::asset('$event->img')}}" alt="Card image">
+              <img class="card-img rounded" src="{{URL::asset($event->img)}}" alt="Card image">
               </div>
             </div>
           </a>
