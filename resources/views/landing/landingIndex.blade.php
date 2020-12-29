@@ -31,11 +31,6 @@
 </div>
 
 
-
-
-
-
-
   <!--==========================
     Intro Section
   ============================-->
@@ -57,7 +52,7 @@
           <div class="col-md-6 col-lg-6 wow bounceInUp d-flex align-items-stretch" data-wow-duration="1.4s">
             <div class="box">
                 <h4 class="title"><a href="oprec/hasil.pdf"> <h3> LOOKING FOR A TEAM? </h3> </a></h4>
-                <p class="description text-center pt-3"> <h6> we will help those of you who are in need of <br> <i> members (Co-founder/teammates/member) to develop their startup </i> </h6> </p>
+                <p class="description text-center pt-3"> <h6> we will help those of you who are in need of <br> <i> members (Co-founder/teammates/member) to develop your startup </i> </h6> </p>
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSepEcSBQ9bzvenwTs2hw4xlhRCXqW921kxQ4FWPL1WP_bq-qg/viewform" target="_blank">
                 <button type="button" class="btn btn-primary">Click Here</button></a>
             </div>
@@ -84,7 +79,7 @@
           <div class="col-md-6 col-lg-6 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="box">
               <h4 class="title"><a href="oprec/hasil.pdf"> <h2> EVENT REGISTRATION </h2> </a></h4>
-              <img class="card-img rounded" src="{{URL::asset($event->img)}}" alt="Card image">
+              <img class="card-img rounded" src="{{URL::asset($event->img)}}" alt="Event image">
               <p class="description text-center pt-3"> <h3> prepare yourself to initiate your startup <br> <i> with corporation-startup experts you won't want to miss! </i> </h3> </p>
               <a href="{{$event->link}}" target="_blank">
               <button type="button" class="btn btn-primary">Register</button></a>
@@ -261,12 +256,12 @@
         <div class="row counters">
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">19</span>
+            <span data-toggle="counter-up">21</span>
             <p>Webinars</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">3</span>
+            <span data-toggle="counter-up">4</span>
             <p>Event</p>
           </div>
 
@@ -330,8 +325,8 @@
     		<h2> Connect </h2>
     	</div>
     	<div class="col-12 social padding">
-    		<a href="https://www.linkedin.com/company/the-founders-laboratory/"><i class="fab fa-linkedin"> </i></a>
-    		<a href="https://www.instagram.com/thefounderslab/"><i class="fab fa-instagram">  </i></a>
+    		<a href="https://www.linkedin.com/company/the-founders-laboratory/" target="_blank"><i class="fab fa-linkedin"> </i></a>
+    		<a href="https://www.instagram.com/thefounderslab/" target="_blank"><i class="fab fa-instagram">  </i></a>
     	</div>
     </div>
     </div>
