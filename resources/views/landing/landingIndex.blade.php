@@ -43,10 +43,45 @@
 
   <main id="main">
 
+
+  <section id="services" class="section-bg">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>TFL TEAM FINDER</h3>
+          <p>Find your Co-Workers through The Founders Laboratory Online Speed Dating</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-md-6 col-lg-6 wow bounceInUp d-flex align-items-stretch" data-wow-duration="1.4s">
+            <div class="box">
+                <h4 class="title"><a href="oprec/hasil.pdf"> <h3> LOOKING FOR A TEAM? </h3> </a></h4>
+                <p class="description text-center pt-3"> <h6> we will help those of you who are in need of <br> <i> members (Co-founder/teammates/member) to develop their startup </i> </h6> </p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSepEcSBQ9bzvenwTs2hw4xlhRCXqW921kxQ4FWPL1WP_bq-qg/viewform" target="_blank">
+                <button type="button" class="btn btn-primary">Click Here</button></a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-6 wow bounceInUp d-flex align-items-stretch" data-wow-duration="1.4s">
+            <div class="box">
+                <h4 class="title"><a href="oprec/hasil.pdf"> <h3> LOOKING FOR A FOUNDER? </h3> </a></h4>
+                <p class="description text-center pt-3"> <h6> we will help for those of you who are in need of<br> <i> a founder to come together to build a startup </i> </h6> </p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfOAAVCzWPtbAmXAx_FY6jbRcjC-esc8SjbjIdaja75u8YkSg/viewform" target="_blank">
+                <button type="button" class="btn btn-primary">Click Here</button></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
   <section id="services" class="m-3">
       <div class="container">
-        <div class="row" id="oprec">
-          <div class="col-md-12 col-lg-12 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+        <div class="row justify-content-center" id="oprec">
+          <div class="col-md-6 col-lg-6 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="box">
               <h4 class="title"><a href="oprec/hasil.pdf"> <h2> EVENT REGISTRATION </h2> </a></h4>
               <img class="card-img rounded" src="{{URL::asset($event->img)}}" alt="Card image">
