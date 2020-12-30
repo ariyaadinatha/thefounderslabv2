@@ -16,6 +16,11 @@ class PageRequestController extends Controller
         return view("landing.landingIndex", ['event' => $event]);
     }
 
+    // ## -- 2. View Mates
+    public function viewMates(){
+        return view("network.networkIndex");
+    }
+
      // ## -- 3. View Artikel
      public function viewArticle(){
         return view("article.articleIndex");

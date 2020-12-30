@@ -16,8 +16,14 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function() {return redirect()->to("/landing");});
 Route::get('/home', function() {return redirect()->to("/landing");});
+
+/*Redirect*/
+Route::get('/test', function() {return redirect()->to("https://www.google.com/");});
+
+
 Route::get('/landing', 'PageRequestController@viewLanding');
 Route::get('/registration', 'PageRequestController@viewRegistrasi');
+Route::get('/FindYourStartupMates', 'PageRequestController@viewMates');
 
 
 /*Coming Soon*/
@@ -29,8 +35,6 @@ Route::get('/fundingfrenzy', 'PageRequestController@viewComingSoon');
 Route::get('/space', 'PageRequestController@viewComingSoon');
 
 Route::get('/community', 'PageRequestController@viewComingSoon');
-Route::get('/cofound', 'PageRequestController@viewComingSoon');
-Route::get('/team', 'PageRequestController@viewComingSoon');
 Route::get('/intern', 'PageRequestController@viewComingSoon');
 
 Route::get('/podcast', 'PageRequestController@viewComingSoon');
@@ -55,3 +59,6 @@ Route::get('/event/create', 'EventController@create');
 Route::post('/event/store', 'EventController@store');
 
 
+/* Network */
+Route::get('/cofound', 'PageRequestController@viewMates');
+Route::get('/team', 'PageRequestController@viewMates');
