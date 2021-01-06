@@ -19,6 +19,7 @@ Route::get('/home', function() {return redirect()->to("/landing");});
 
 /*Redirect*/
 Route::get('/test', function() {return redirect()->to("https://www.google.com/");});
+Route::get('/InternalTraining', function() {return redirect()->to("https://forms.gle/gCoUDr43pd2ZrAZv7");});
 
 
 Route::get('/landing', 'PageRequestController@viewLanding');
