@@ -11,13 +11,13 @@
       <div class="container">
 
         <header class="section-header">
-          <h3>GROWTH HACK YOUR STARTUP WITH STARTUP SCHOOL</h3>
+          <h3 class="pt-3">GROWTH HACK YOUR STARTUP WITH STARTUP SCHOOL</h3>
           <p class="text-justify"> <b> Are you eager to develop your startup? <br> Is growing your startup your new years resolution? </b> <br> <br> 
           Excellent, we are here! Startup school enables and boosts your startups growth into the next level through our curriculum.
           Kickstart your startup with resources such as ideation methods, industry knowledge, and industry resources through Startup School.<br> <br>
           Then, hack your startup acceleration through our program and mentors from a wide range of industries.<br> <br>
           
-          <a href="http://bit.ly/SSXFFRegistrations"> For detailed information, kindly click here </a> <br>
+          <a href="http://bit.ly/SSXFFRegistrations" target="_blank"> For detailed information, kindly click here </a> <br><br>
 
           <a href="http://bit.ly/RegistrationsSSXFF" target="_blank">
             <button type="button" class="btn btn-primary mr-2"> <b> Register </b> </button>
