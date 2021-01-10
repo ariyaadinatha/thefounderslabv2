@@ -59,6 +59,8 @@ Route::get('/event', 'EventController@viewIndex');
 Route::get('/event/create', 'EventController@create');
 Route::post('/event/store', 'EventController@store');
 
+/* Growth Hack */
+Route::get('/event/growth-hack', 'EventController@viewGrowth');
 
 /* Network */
 Route::get('/cofound', 'PageRequestController@viewMates');

@@ -34,4 +34,9 @@ class EventController extends Controller
         return view('event.eventIndex', ['events' => $events]);
     }
 
+    public function viewGrowth()
+    {
+        return view('event.eventGrowth');
+    }
+
 }
