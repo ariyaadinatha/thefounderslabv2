@@ -7,7 +7,9 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
       </ol>
+
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img class="d-block w-100 h-100" src="{{ URL::asset('img/carousel1.jpg') }}" alt="First slide">
@@ -18,7 +20,11 @@
         <div class="carousel-item">
           <img class="d-block w-100 h-100" src="{{ URL::asset('img/carousel3.jpg') }}" alt="Third slide">
         </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 h-100" src="{{ URL::asset('img/carousel4.jpg') }}" alt="Fourth slide">
+        </div>
       </div>
+
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
@@ -39,38 +45,9 @@
   <main id="main">
 
 
-  <section id="services" class="section-bg">
-      <div class="container">
-
-        <header class="section-header">
-          <h3>TFL TEAM FINDER</h3>
-          <p>Find your Co-Workers through The Founders Laboratory Online Speed Dating</p>
-        </header>
-
-        <div class="row">
-
-          <div class="col-md-6 col-lg-6 wow bounceInUp d-flex align-items-stretch" data-wow-duration="1.4s">
-            <div class="box">
-                <h4 class="title"><a href="oprec/hasil.pdf"> <h3> LOOKING FOR A TEAM? </h3> </a></h4>
-                <p class="description text-center pt-3"> <h6> we will help those of you who are in need of <br> <i> members (Co-founder/teammates/member) to develop your startup </i> </h6> </p>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSepEcSBQ9bzvenwTs2hw4xlhRCXqW921kxQ4FWPL1WP_bq-qg/viewform" target="_blank">
-                <button type="button" class="btn btn-primary">Click Here</button></a>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-6 wow bounceInUp d-flex align-items-stretch" data-wow-duration="1.4s">
-            <div class="box">
-                <h4 class="title"><a href="oprec/hasil.pdf"> <h3> LOOKING FOR A FOUNDER? </h3> </a></h4>
-                <p class="description text-center pt-3"> <h6> we will help for those of you who are in need of<br> <i> a founder to come together to build a startup </i> </h6> </p>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfOAAVCzWPtbAmXAx_FY6jbRcjC-esc8SjbjIdaja75u8YkSg/viewform" target="_blank">
-                <button type="button" class="btn btn-primary">Click Here</button></a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
+    <!--==========================
+      Growth Hack Section
+    ============================-->
 
 
   <section id="services" class="m-3">
@@ -104,6 +81,43 @@
                   <button type="button" class="btn btn-primary mr-2"> <b> Register </b> </button>
                 </a>
               </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!--==========================
+      Team FInder Section
+    ============================-->
+
+    <section id="services" class="section-bg">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>TFL TEAM FINDER</h3>
+          <p>Find your Co-Workers through The Founders Laboratory Online Speed Dating</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-md-6 col-lg-6 wow bounceInUp d-flex align-items-stretch" data-wow-duration="1.4s">
+            <div class="box">
+                <h4 class="title"><a href="oprec/hasil.pdf"> <h3> LOOKING FOR A TEAM? </h3> </a></h4>
+                <p class="description text-center pt-3"> <h6> we will help those of you who are in need of <br> <i> members (Co-founder/teammates/member) to develop your startup </i> </h6> </p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSepEcSBQ9bzvenwTs2hw4xlhRCXqW921kxQ4FWPL1WP_bq-qg/viewform" target="_blank">
+                <button type="button" class="btn btn-primary">Click Here</button></a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-6 wow bounceInUp d-flex align-items-stretch" data-wow-duration="1.4s">
+            <div class="box">
+                <h4 class="title"><a href="oprec/hasil.pdf"> <h3> LOOKING FOR A FOUNDER? </h3> </a></h4>
+                <p class="description text-center pt-3"> <h6> we will help for those of you who are in need of<br> <i> a founder to come together to build a startup </i> </h6> </p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfOAAVCzWPtbAmXAx_FY6jbRcjC-esc8SjbjIdaja75u8YkSg/viewform" target="_blank">
+                <button type="button" class="btn btn-primary">Click Here</button></a>
             </div>
           </div>
 

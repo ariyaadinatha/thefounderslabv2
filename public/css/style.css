@@ -77,6 +77,10 @@ h6 {
     color: #fff;
 }
 
+#done {
+    filter: grayscale(90%);
+}
+
 footer {
     background-color: #3f3f3f;
     color: #d5d5d5;
