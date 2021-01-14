@@ -64,7 +64,7 @@
                   <button type="button" class="btn btn-primary mr-2"> <b> Register </b> </button>
                 </a>
                 <a href="/event/growth-hack">
-                  <button type="button" class="btn btn-info ml-2"> <b> Read More </b> </button></a>
+                  <button type="button" class="btn btn-info ml-2"> <b> Guideline </b> </button></a>
                 </a>
               </div>
             </div>
@@ -73,7 +73,7 @@
 
           <div class="col-md-6 col-lg-6 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="box">
-              <h4 class="title"> <h2> EVENT REGISTRATION </h2> </h4>
+              <h4 class="title"> <h2> PAST EVENT REGISTRATION </h2> </h4>
               <img class="card-img rounded" src="{{URL::asset($event->img)}}" alt="Event image">
               <p class="description text-center pt-3"> <h6> prepare yourself to initiate your startup <br> <i> with corporation-startup experts you won't want to miss! </i> </h6> </p>
               <div class="d-flex justify-content-center">
